@@ -3,7 +3,7 @@
 import React, { use } from 'react'
 import { useState } from 'react';
 
-const page = () => {
+const Client = () => {
     const [count,setCount]=useState(0);
 
   return (
@@ -14,4 +14,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Client
