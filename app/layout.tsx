@@ -27,7 +27,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body>{children}</body>
+      <body>
+        <p className="text-lime-200">navbr</p>
+        {children}</body>
     </html>
   );
 }
